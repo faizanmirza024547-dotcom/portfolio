@@ -10,7 +10,7 @@ export default function Projects() {
       github: '#'
     },
     {
-      title: 'Task Management Web App',
+      title: 'Task',
       description: 'Full-stack task management application with real-time updates, user authentication, and team collaboration features. Built with Django and modern frontend.',
       technologies: ['Django', 'PostgreSQL', 'Celery', 'WebSockets', 'Docker'],
       liveDemo: '#',
