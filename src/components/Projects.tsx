@@ -3,9 +3,9 @@ import { ExternalLink, Github } from 'lucide-react';
 export default function Projects() {
   const projects = [
     {
-      title: 'Python REST API Service',
-      description: 'A robust RESTful API built with FastAPI, featuring authentication, rate limiting, and comprehensive documentation. Includes automated testing and CI/CD pipeline.',
-      technologies: ['Python', 'FastAPI', 'PostgreSQL', 'Docker', 'Redis'],
+      title: 'Dataset Preprocessing',
+      description: 'Cleaned and prepared raw data by handling missing values, encoding categorical variables, and scaling features to ensure high-quality input for machine learning models.',
+      technologies: ['Python','PostgreSQL','Redis'],
       liveDemo: '#',
       github: '#'
     },
