@@ -13,8 +13,8 @@ export default function Hero() {
 
   const downloadCV = () => {
     const link = document.createElement('a');
-    link.href = '/CV-Faizan-Mirza.pdf';
-    link.download = 'CV-Faizan-Mirza.pdf';
+    link.href = '/assets/CV-Faizan-Mirza.pdf';
+    link.download = '/assets/CV-Faizan-Mirza.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
